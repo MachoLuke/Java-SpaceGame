@@ -38,7 +38,10 @@ public class Game extends Canvas implements Runnable {
 		}
 		System.exit(1);
 	}
-	
+		public void run(){
+		while(running)
+		}
+		
 	
 	public void run(){
 		long lastTime = System.nanoTime();
